@@ -58,4 +58,4 @@ def readmail(feed):
     return feed
 	
 if __name__ == "__main__":
-    return readmail(get_messages())
+    readmail(get_messages())
