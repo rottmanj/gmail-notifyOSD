@@ -19,7 +19,7 @@ def _get_config():
         config.add_section("settings")
     
     if not config.has_option("settings","username"):
-        config.set("settings","username","rottmanj")
+        config.set("settings","username","test")
     
     if not config.has_option("settings","show_notify"):
         config.set("settings","show_notify","False")
